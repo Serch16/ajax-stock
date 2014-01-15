@@ -26,7 +26,9 @@
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 
@@ -51,7 +53,7 @@
                     <div class="nav-collapse collapse">
                         <%if (user != null) {%>
                         <jsp:include page="jsp/menuSuperior.jsp" />   
-                        <% } %>
+                        <% }%>
                         <jsp:include page="jsp/usuario/infologin.jsp" />                        
                     </div>
                 </div>
